@@ -1,0 +1,145 @@
+There are three types of variables in javascript let var and const
+
+in case of var var is available through out the code 
+and if we update the variable in a block the value will
+still get updated outside the block.
+var a=7
+{
+    var=10
+
+}
+
+console.log(a)
+
+if we do this then the value outside the block will also get updated.
+
+for let we can declare a let variable only once in global then 
+even if we declare a let in a block the value will not get updated.
+
+let a=7
+
+{
+    let a=10
+    console.log(a)
+}
+
+console.log(a)
+
+in this case both will result in different result
+
+in case of let we can still update the value in the variable
+
+let a=7;
+a=9
+console.log(a)
+
+this will print new value of a which is 9 
+
+in case of const we can only declare const once and we must
+also input values in them at the same time too!
+
+const a=7;
+will work
+but 
+const a;
+a=7;
+will not
+
+also 
+const a=7;
+a=9
+will throw an error because we can never update a const's value
+after declaration. 
+
+=====================================================================
+
+DATATYPES ON JS:
+
+short form : 
+N-NULL
+N-NUMBER
+S-SYMBOL
+S-STRING
+B-BOOLEAN
+B-BIGINT
+U-UNDEFINED
+
+
+=========================================================
+
+Operators:
+ARITHMETIC
+
+addition operator: "+"
+substraction operator : "-"
+division operator : "/"
+multiplication operator: "*"
+power operator : "**"
+modulo operator : "%"
+increment : "++"
+decrement : "--"
+
+et a=10;
+console.log(a--);
+console.log(--a);
+console.log(a++);
+console.log(++a);
+//10
+//8
+//8
+//10
+
+-----------------------------
+Assignment operator:
+
+let a=10;
+a+=1
+a-=1
+a*=2
+a/=2
+a**=2
+a%=2
+
+------------------------------
+Comparison operator:
+
+let abc=99
+let bca="99"
+console.log(abc!=bca);
+console.log(abc==bca);
+console.log(abc!==bca);
+console.log(abc===bca);
+console.log(abc>=bca);
+console.log(abc<=bca);
+console.log(abc>bca);
+console.log(abc<bca);
+
+
+in this code the difference in 
+the 2nd and 4th is the fourth 
+one will also check it's datatype
+to check if the two values are truly
+equal or not.
+
+     operator
+        |
+        v
+7       +      8 =  15  -> result
+^
+|
+operand
+
+------------------------------------------
+
+Logical operators:
+
+let i=19;
+let j=20
+console.log(i>5 || i!=j);
+console.log(i<5 && j>i);
+
+true false
+bitwise operator. 
+
+Input of prompt is always a STRING.
+
