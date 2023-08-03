@@ -48,10 +48,12 @@ let info=["anuvab","mayank","abc_noob","anuvabtest"]
 //console.log(p);
 
 //splice method:
-
-//num=[1,2,4,5,8,9,110,5540,112,67]
-// let q=num.splice(1,0,11,22)
-// console.log(q,num);
+//Extracts the from the given index also 
+//amout of numbers and new numbers to input
+//format : arr.splice(index,cnt_num,new_nums) -> return removed nums
+num=[1,2,4,5,8,9,110,5540,112,67]
+//let q=num.splice(2,2)
+//console.log(q,num);
 
 // let nums=num.slice(2,5)   // includes the first but doesn't include the last
 // console.log(nums,num);
@@ -67,7 +69,7 @@ let info=["anuvab","mayank","abc_noob","anuvabtest"]
 
 // let arr= Array.from(info)
 // console.log(arr);
-
+//returns index
 // for (i in num){
 //     console.log(i);
 // }
@@ -110,14 +112,14 @@ let info=["anuvab","mayank","abc_noob","anuvabtest"]
 // q=num.reduce((value1,value2)=>{return value1*value2})
 // console.log(q);
 
-var gen_num=Math.round(Math.random()*101)
-console.log(gen_num);
-q=prompt("enter a number")
-q=Number.parseInt(q)
-while (q!=gen_num){
-    q=prompt("try again:")
-    q=Number.parseInt(q)
-}
-if (q===gen_num){
-    alert("Number guessed")
-}
+// var gen_num=Math.round(Math.random()*101)
+// console.log(gen_num);
+// q=prompt("enter a number")
+// q=Number.parseInt(q)
+// while (q!=gen_num){
+//     q=prompt("try again:")
+//     q=Number.parseInt(q)
+// }
+// if (q===gen_num){
+//     alert("Number guessed")
+// }

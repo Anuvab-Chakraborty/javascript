@@ -89,7 +89,17 @@
 //         break;
 // }
 
-// console.log("you must do your",(a>18)? "job" : "Homework");
+
+//TERNARY OPERATOR:
+
+// const age = 25;
+// const isAdult = age >= 18 ? "Adult" : "Not an adult";
+
+// console.log(isAdult); // Output: "Adult"
+
+
+
+// console.log("you must do your",(a>18)? "job" : "Homework"); Ternary operator
 
 // let arr=[1,2,3,4,5,6]
 // for (let a in arr){
