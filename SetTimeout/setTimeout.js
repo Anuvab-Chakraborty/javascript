@@ -2,7 +2,7 @@
 
 
 // function abc(a,b){
-//     //console.log(a+b," Hello setTimeout is running ");
+//console.log(a+b," Hello setTimeout is running ");
 //     console.log(a+b," Hello setInterval is running ");
 //     p=document.getElementById("first")
 //     p.innerHTML="ARREY BC PADHLE"
