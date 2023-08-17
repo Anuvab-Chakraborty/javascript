@@ -2,12 +2,14 @@
 //EventListener is used to add multiple eventhandlers to an event.
 //syntax-> element.addEventListener(event,HANDLER function)
 //removeEventListener-> element.removeEventListener(handler function)
-
+// BROWSER CREATES AN EVENT OBJECT BY ITSELF
 
 first=document.getElementById("first")
 
 let a=(event)=>{
     console.log(event);
+    console.log(event.target); //Returns the exact element where event was triggered
+    console.log(event.clientX,event.clientY);
     first.innerHTML="A wala function hai ye"
 }
 
